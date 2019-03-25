@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
@@ -14,5 +15,32 @@
         android:text="Main Activity"
         android:textColor="@color/colorAccent"
         android:textSize="30sp"/>
+
+    <EditText
+        android:layout_margin="8dp"
+        android:inputType="number"
+        android:id="@+id/phone_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone Number"/>
+
+    <EditText
+        android:layout_margin="8dp"
+        android:id="@+id/url_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter URL"/>
+
+    <Button
+        android:id="@+id/call_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call Button"/>
+
+    <Button
+        android:id="@+id/open_url_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open URL"/>
 
 </LinearLayout>
